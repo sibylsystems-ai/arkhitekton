@@ -1,0 +1,37 @@
+
+*.class
+*.log
+*.sc
+
+# sbt specific
+.cache/
+.history/
+.lib/
+dist/*
+target/
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+report/output
+
+# Scala-IDE specific
+.scala_dependencies
+.worksheet
+.idea
+.metals
+.vscode
+
+# Bloop specific
+.bloop/
+.bsp
+
+# gitsecret
+.gitsecret/keys/random_seed
+!*.secret
+src/main/resources/application.conf
+
+docs/.obsidian
+
+#Mac OS
+.DS_Store
