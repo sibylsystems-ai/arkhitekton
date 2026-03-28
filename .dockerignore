@@ -1,0 +1,9 @@
+.git
+.idea
+.bsp
+.claude
+target
+modules/*/target
+node_modules
+*.jar
+.env

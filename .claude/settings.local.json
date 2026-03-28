@@ -1,0 +1,32 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git config:*)",
+      "Bash(cp:*)",
+      "Bash(for f:*)",
+      "Bash(do cp:*)",
+      "Bash(done)",
+      "Bash(do sed:*)",
+      "Bash(sbt core/compile)",
+      "Bash(sbt cli/compile)",
+      "Bash(sbt compile:*)",
+      "Bash(sbt cli/assembly)",
+      "Bash(sbt cli/test)",
+      "WebSearch",
+      "WebFetch(domain:blog.fka.dev)",
+      "Bash(sbt protocolJVM/compile protocolJS/compile)",
+      "Bash(sbt \"show protocolJVM/Compile/unmanagedSourceDirectories\")",
+      "Bash(sbt protocolJVM/test)",
+      "Bash(sbt server/compile)",
+      "Bash(curl -s \"https://search.maven.org/solrsearch/select?q=g:com.raquo+AND+a:laminar_sjs1_3&rows=1&wt=json\")",
+      "Bash(python3 -m json.tool)",
+      "Bash(curl -s \"https://search.maven.org/solrsearch/select?q=g:com.raquo+AND+a:waypoint_sjs1_3&rows=1&wt=json\")",
+      "Bash(curl -s \"https://search.maven.org/solrsearch/select?q=g:com.raquo+AND+a:laminar_sjs1_3&rows=1&wt=json&core=gav\")",
+      "Bash(curl -s \"https://search.maven.org/solrsearch/select?q=g:com.raquo+AND+a:waypoint_sjs1_3&rows=20&wt=json&core=gav\")",
+      "Bash(python3 -c \"import sys,json; d=json.load\\(sys.stdin\\); [print\\(x[''''v'''']\\) for x in d[''''response''''][''''docs'''']]\")",
+      "Bash(sbt web/compile)",
+      "Bash(sbt web/fastLinkJS)",
+      "Bash(test -n \"$ANTHROPIC_API_KEY\")"
+    ]
+  }
+}
